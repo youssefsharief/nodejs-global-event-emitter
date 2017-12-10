@@ -1,5 +1,5 @@
 const pubsub= require('./pubsub')
 
 setInterval(()=>{
-    pubsub.emit('need data', {s:'sa'})
+    pubsub.emit('command passed first stage', {s:'sa'})
 }, 500)
